@@ -6,7 +6,7 @@ The purpose of this repo is to ensure Terrarium demos run smoothly and without e
 ### Installation
 
 ```python
-pip install terrarium-capp==0.1.5
+pip install terrarium-capp==0.1.5 -U
 ```
 
 ### Running examples
