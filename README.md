@@ -1,7 +1,7 @@
 # TerrariumDemo
-Demonstration of Terrarium capabilities
+Terrarium v0.1 is a [dynamic computer-aided process planner (CAPP)](https://en.wikipedia.org/wiki/Computer-aided_process_planning) for biology designed for agile manufacturing of biological products, such as E Coli & Yeast strains, or Mammalian cell lines.
 
-The purpose of this repo is to ensure Terrarium demos run smoothly and without errors.
+This project demonstrates the forward planning algorithm of the software.
 
 ## Usage
 
