@@ -36,7 +36,7 @@ The input JSON is comprised of *four* main keys:
 }
 ```
 ##### TRAIN
-This is the query to search Aquarium for experimental plans to train the main algorithm. A common query may be:
+This is the query to search Aquarium for experimental plans to train the main algorithm. This training process can take a few minutes depending on the size of the data being used to train. A common query may be:
 
 ```json
   {
@@ -48,7 +48,7 @@ This is the query to search Aquarium for experimental plans to train the main al
     }
 ```
 
-Which will use the last 500 plans corresponding to user with user_id == 66.
+Which will use the last 500 plans corresponding to user with user_id == 66 (i.e. the id for Justin Vrana, you can find your user_id using trident via `session.User.one(query={'login': 'mylogin'})`)
 
 ##### MODEL_PATH
 
