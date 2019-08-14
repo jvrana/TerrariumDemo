@@ -20,7 +20,7 @@ make example2
 
 ### Running arbitrary JSON files
 
-```python
+```bash
 terrarium login --username <username> --url <aq_url> --password <password> design <input_json>
 ```
 
