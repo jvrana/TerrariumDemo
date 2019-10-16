@@ -1,0 +1,74 @@
+{
+    "TRAIN": {
+        "method": "find",
+        "args": [[36091, 36096, 36195]]
+    },
+    "MODEL_PATH": "cannon.pkl",
+    "GOALS": [
+        {
+            "PLAN_ID": "TerrariumGoldenGate",
+            "SAMPLE": {
+                "model_class": "Sample",
+                "query": {
+                    "name": "AAPLX_114"
+                }
+            },
+            "OBJECT_TYPE": {
+                "model_class": "ObjectType",
+                "query": {
+                    "name": "Plasmid Stock"
+                }
+            },
+            "EDGES":  [
+                ["pYCK019-ccdB", "AAPLX_114"],
+                ["pYTK009", "AAPLX_114"],
+                ["pYTK033-Venus", "AAPLX_114"],
+                ["pYTK051", "AAPLX_114"],
+                ["pPGK1", "AAPLX_114"],
+                ["pRET2", "AAPLX_114"],
+                ["DH5alpha", "AAPLX_114"]
+            ]
+        },
+        {
+            "PLAN_ID": "TerrariumGoldenGate",
+            "SAMPLE": {
+                "model_class": "Sample",
+                "query": {
+                    "name": "AAPLX_114"
+                }
+            },
+            "OBJECT_TYPE": {
+                "model_class": "ObjectType",
+                "query": {
+                    "name": "Plasmid Stock"
+                }
+            },
+            "EDGES":  [
+                ["pYCK019-ccdB", "AAPLX_114"],
+                ["pYTK009", "AAPLX_114"],
+                ["pYTK033-Venus", "AAPLX_114"],
+                ["pYTK051", "AAPLX_114"],
+                ["pPGK1", "AAPLX_114"],
+                ["pRET2", "AAPLX_114"]
+            ]
+        }
+    ],
+    "GLOBAL_CONSTRAINTS": {
+        "EXCLUDE": [
+            {
+                "model_class": "OperationType",
+                "query": [
+                    {"category": ["Control Blocks", "Library Cloning"]},
+                    {"name": "Yeast Mating"},
+                    {"name": "Yeast Auxotrophic Plate Mating"}
+                ]
+            },
+            {
+                "model_class": "Item",
+                "query": [
+                    {"id": 419785}
+                ]
+            }
+        ]
+    }
+}

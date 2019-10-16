@@ -13,7 +13,7 @@
             "SAMPLE": {
                 "model_class": "Sample",
                 "query": {
-                    "name": "CEN.PK2 - MAT A ::: pMOD4G-dcas9-mxi1 | pMOD-LTR2-Bleo-pGRR-W5W17-RGR-W8 | pMOD-LTR3-Hyg-pGRR-W8-RGR-W17 | pMOD8-pGRR-W10W8-RGR-W5"
+                    "name": "AAYS_177"
                 }
             },
             "OBJECT_TYPE": {
@@ -21,17 +21,37 @@
                 "query": {
                     "name": "Yeast Glycerol Stock"
                 }
+            }
+        },
+        {
+            "PLAN_ID": "3NodeCircuitDesign",
+            "SAMPLE": {
+                "model_class": "Sample",
+                "query": {
+                    "id": 27321
+                }
             },
-            "EDGES":  [
-                ["DTBA_backboneA_splitAMP", "pMOD-LTR2-Bleo-pGRR-W5W17-RGR-W8"],
-                ["T1MC_NatMX-Cassette_MCT2 (JV)", "pMOD-LTR2-Bleo-pGRR-W5W17-RGR-W8"],
-                ["BBUT_URA3.A.0_homology1_UTP1", "pMOD-LTR2-Bleo-pGRR-W5W17-RGR-W8"],
-                ["DH5alpha", "pMOD-LTR2-Bleo-pGRR-W5W17-RGR-W8"],
-                ["TP-IRES-EGFP-TS", "pMOD-LTR2-Bleo-pGRR-W5W17-RGR-W8"],
-                ["PP2-pCUP1-PS (JV)","pMOD-LTR3-Hyg-pGRR-W8-RGR-W17"],
-                ["DH5alpha","pMOD-LTR3-Hyg-pGRR-W8-RGR-W17"],
-                ["AMPR-HIS-pGALZ4-F4","pMOD-LTR3-Hyg-pGRR-W8-RGR-W17"]
-            ]
+            "OBJECT_TYPE": {
+                "model_class": "ObjectType",
+                "query": {
+                    "name": "Yeast Glycerol Stock"
+                }
+            }
+        },
+        {
+            "PLAN_ID": "3NodeCircuitDesign",
+            "SAMPLE": {
+                "model_class": "Sample",
+                "query": {
+                    "name": "AAYS_176"
+                }
+            },
+            "OBJECT_TYPE": {
+                "model_class": "ObjectType",
+                "query": {
+                    "name": "Yeast Glycerol Stock"
+                }
+            }
         }
     ],
     "GLOBAL_CONSTRAINTS": {
@@ -41,8 +61,7 @@
                 "query": [
                     {"category": ["Control Blocks", "Library Cloning"]},
                     {"name": "Yeast Mating"},
-                    {"name": "Yeast Auxotrophic Plate Mating"},
-                    {"name": "Order Addgene Plasmid"}
+                    {"name": "Yeast Auxotrophic Plate Mating"}
                 ]
             },
             {
